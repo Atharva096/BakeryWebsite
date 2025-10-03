@@ -7,6 +7,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: './', // 👈 this fixes the blank page on GitHub Pages
+  // 💡 Change './' to the absolute path: '/YOUR_REPO_NAME/'
+  base: '/BakeryWebsite/', 
 })
-
