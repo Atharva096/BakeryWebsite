@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/', // 👈 Use '/' for custom domain (aishwaryabakery.in)
+  base: '/', // ← MUST be '/' for custom domains
 })
