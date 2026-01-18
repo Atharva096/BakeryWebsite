@@ -363,7 +363,7 @@ export default function Home() {
                   <Phone className="h-6 w-6 text-rose-600 mt-1" />
                   <div>
                     <h4 className="font-semibold text-amber-900">Phone</h4>
-                    <p className="text-amber-700">+91 7387679896</p>
+                    <p className="text-amber-700">+91 9657174007</p>
                   </div>
                 </div>
 
@@ -371,7 +371,7 @@ export default function Home() {
                   <Mail className="h-6 w-6 text-rose-600 mt-1" />
                   <div>
                     <h4 className="font-semibold text-amber-900">Email</h4>
-                    <p className="text-amber-700">info@aishwaryabakery.com</p>
+                    <p className="text-amber-700">aishwaryabakery3@gmail.com</p>
                   </div>
                 </div>
               </div>
