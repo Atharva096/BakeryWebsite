@@ -380,15 +380,35 @@ export default function Home() {
               <div className="mt-8">
                 <h4 className="font-semibold text-amber-900 mb-4">Follow Us</h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200">
+    
+                  {/* Facebook */}
+                  <a 
+                    href="https://www.facebook.com/share/r/1GJA7FuQAh/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200"
+                  >
                     <Facebook className="h-6 w-6 text-rose-600" />
                   </a>
-                  <a href="#" className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200">
+
+                  {/* Instagram */}
+                  <a 
+                    href="https://www.instagram.com/reel/DScZodBDFBg/?igsh=d2gwdG1zZWJxM3I1" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200"
+                  >
                     <Instagram className="h-6 w-6 text-rose-600" />
                   </a>
-                  <a href="#" className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200">
+
+                  {/* Twitter (you can add later) */}
+                  <a 
+                    href="#" 
+                    className="bg-rose-100 p-3 rounded-full hover:bg-rose-200 transition-colors duration-200"
+                  >
                     <Twitter className="h-6 w-6 text-rose-600" />
                   </a>
+
                 </div>
               </div>
             </div>
