@@ -191,6 +191,7 @@ export default function Products() {
 
   const handleCategoryClick = (categoryName: string) => {
     const slug = categoryName.toLowerCase().replace(/\s+/g, '-');
+    console.log('Navigating to:', `/products/${slug}`); // Debug log
     navigate(`/products/${slug}`);
   };
 
