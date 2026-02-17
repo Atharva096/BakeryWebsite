@@ -455,6 +455,7 @@ export default function Home() {
             <p className="text-orange-200 mb-6">Freshly baked happiness every day</p>
             <div className="border-t border-orange-700 pt-6">
               <p className="text-orange-300">
+                Atul Bakery is your one-stop destination for freshly baked delights that combine tradition with innovation. Renowned for its wide range of cakes, bread, cookies, and snacks, Atul Bakery is committed to delivering high-quality products made with love and precision.
                 © 2024 Aishwarya Bakery. All rights reserved. | Made with ❤️ in Baramati
               </p>
             </div>
