@@ -97,25 +97,46 @@ export default function SubProducts() {
       slug: "pastries",
       items: [
         {
-          name: "Flavoured Pastries",
+          name: "Butterscotch Pastry",
+          description: "Buttery, flaky pastries with fruit and cream fillings",
+          image: "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 50,
+        },
+        {
+          name: "Rasmalai Pastry",
+          description: "Fresh, crispy French croissants baked daily",
+          image: "https://images.pexels.com/photos/2103949/pexels-photo-2103949.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 50,
+        },
+        {
+          name: "Red Velvet Pastry",
+          description: "Classic choux pastry filled with vanilla cream",
+          image: "https://images.pexels.com/photos/2067569/pexels-photo-2067569.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 70,
+        },
+        {
+          name: "Trufle Chocolate Pastry",
           description: "Buttery, flaky pastries with fruit and cream fillings",
           image: "https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg?auto=compress&cs=tinysrgb&w=600",
           price: 80,
-          weight: "100g"
         },
         {
-          name: "Chocolate Pastries",
+          name: "Blueberry Cheese Pastry",
           description: "Fresh, crispy French croissants baked daily",
           image: "https://images.pexels.com/photos/2103949/pexels-photo-2103949.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 90,
-          weight: "100g"
+          price: 80,
         },
         {
-          name: "Cheese Pastries",
+          name: "Chocolate Cheese Pastry",
+          description: "Fresh, crispy French croissants baked daily",
+          image: "https://images.pexels.com/photos/2103949/pexels-photo-2103949.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 80,
+        },
+        {
+          name: "Pineapple Cheese Pastry",
           description: "Classic choux pastry filled with vanilla cream",
           image: "https://images.pexels.com/photos/2067569/pexels-photo-2067569.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 85,
-          weight: "100g"
+          price: 80,
         }
       ]
     },
