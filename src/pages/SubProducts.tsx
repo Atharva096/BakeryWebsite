@@ -63,17 +63,31 @@ export default function SubProducts() {
       slug: "chocolate-cakes",
       items: [
         {
-          name: "Dark Chocolate Truffle",
+          name: "Chocolate Crunch",
           description: "Rich, moist chocolate cake with fudge frosting",
           image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 550,
+          price: 330,
+          weight: "1/2 kg"
+        },
+        {
+          name: "Black Dark Chocochips",
+          description: "Decadent chocolate cake with molten center",
+          image: "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 330,
+          weight: "1/2 kg"
+        },
+        {
+          name: "Chocolate white Chocochips",
+          description: "Rich, moist chocolate cake with fudge frosting",
+          image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 660,
           weight: "1 kg"
         },
         {
-          name: "Chocolate Lava",
+          name: "Black Forest",
           description: "Decadent chocolate cake with molten center",
           image: "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 600,
+          price: 660,
           weight: "1 kg"
         }
       ]
