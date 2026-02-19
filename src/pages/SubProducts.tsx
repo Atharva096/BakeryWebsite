@@ -15,24 +15,45 @@ export default function SubProducts() {
       slug: "flavoured-cakes",
       items: [
         {
+          name: "White Forest",
+          description: "Light, fluffy vanilla sponge with buttercream frosting",
+          image: "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 300,
+          weight: "1/2 kg"
+        },
+        {
+          name: "paan pista",
+          description: "Fresh strawberry cake with whipped cream",
+          image: "https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 300,
+          weight: "1/2 kg"
+        },
+        {
+          name: "Kulfi Faluda",
+          description: "Tropical pineapple cake with cream cheese",
+          image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
+          price: 300,
+          weight: "1/2 kg"
+        },
+        {
           name: "Vanilla Delight",
           description: "Light, fluffy vanilla sponge with buttercream frosting",
           image: "https://images.pexels.com/photos/1721932/pexels-photo-1721932.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 450,
+          price: 600,
           weight: "1 kg"
         },
         {
           name: "Strawberry Bliss",
           description: "Fresh strawberry cake with whipped cream",
           image: "https://images.pexels.com/photos/140831/pexels-photo-140831.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 500,
+          price: 600,
           weight: "1 kg"
         },
         {
           name: "Pineapple Paradise",
           description: "Tropical pineapple cake with cream cheese",
           image: "https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg?auto=compress&cs=tinysrgb&w=600",
-          price: 480,
+          price: 600,
           weight: "1 kg"
         }
       ]
